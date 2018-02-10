@@ -1,0 +1,294 @@
+header{
+    height: 89px;
+    width: 100%;
+    max-width: 1120px;
+    min-width: 610px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    overflow: auto;
+    
+    
+}
+
+#container2{
+    background-image: url("../images/concrete.png");
+    background-repeat: repeat-x repeat-y;
+    background-color: grey;
+    padding: 50px 0;
+}
+
+
+ header h1{
+    padding: 30px;
+    background: #4aaaa5;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 190px;
+    float: left;
+    margin: 0;
+
+}
+
+.nav{
+    float: left;
+}
+
+#navBar{
+    float: right;
+}
+
+#content{
+    border: 2px solid #cccccc;
+    background: white;
+    padding: 0 25px 30px 25px;
+    width: 60%;
+    float: left;
+    min-width: 602px;
+
+}
+
+#content h1{
+    padding: 30px 0px;
+    color: #4aaaa5;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+    border-bottom: 3px solid #cccccc;
+
+}
+
+#social{
+    border: 2px solid #cccccc;
+    background: white;
+    padding: 0 25px 30px 25px;
+    width: 225px;
+    float: right;
+    margin-right: 4px;
+
+}
+
+#social h1{
+    padding: 20px 0px;
+    color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    border-bottom: 2px solid #cccccc;
+
+}
+
+#social a{
+    margin: 20px 10px;
+    text-decoration: none;
+}
+
+#me{
+    float: left;
+    width: 250px;
+    margin: 0 20px 20px 0;
+}
+
+p{
+    font-size: 20px;
+    color: #777777;
+}
+
+footer{
+    height: 94px;
+    border-top: 7px solid #4aaaa5;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    background: #666666;
+
+}
+
+footer p{
+    font-size: 15px;
+    padding-top: 30px;
+    color: white;
+}
+
+#nav a:link{
+    color: #777777;
+    text-decoration: none;
+
+}
+#navBar a:visited{
+    color: #777777;
+    text-decoration: none;
+
+}
+#navBar a:active{
+    color:red;
+    
+
+}
+
+.nav a{
+    padding: 0 15px;
+    text-decoration: none;
+
+}
+
+#navBar a:hover{
+    color: red;
+    background: white;
+   
+}
+
+#navMid {
+    border-left: #777777 1px solid;
+    border-right: #777777 1px solid;
+}
+
+#navBar{
+    padding-top: 35px;
+}
+
+/*
+hr{
+    height: 2px;
+    background-color: #777777;
+    margin: 1px;
+}
+*/
+
+/*container for my header to creat grey line at bottum of header section*/
+
+#container {
+    border-bottom: #cccccc solid 3px;
+}
+
+
+.field{
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.rows{
+    clear: both;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.left{
+    float: left;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.right{
+    float: right;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+#content img{
+    width: 300px;
+}
+
+.button{
+    color: white;
+    background: #4aaaa5;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/* --------responsive styles follow-------- */
+
+@media screen and (max-width: 972px) {
+    #content{
+        padding: 0 25px 30px 25px;
+        width: 60%;
+        float: none;
+        min-width: 602px;
+        margin:  0 auto 30px auto;
+    
+    }
+
+    #social{
+        padding: 0 25px 30px 25px;
+        min-width: 602px;
+        float: none;
+        margin-right: 4px;
+        margin:  auto;
+    
+    }
+  
+}
+
+@media screen and (max-width: 700px) {
+    
+
+    #content{
+        padding: 0 25px 30px 25px;
+        min-width: 545px;
+        width: 90%;
+        float: none;
+        margin:  0 auto 30px auto;
+    
+    }
+
+    #social{
+        padding: 0 25px 30px 25px;
+        width: 90%;
+        min-width: 545px;
+        float: none;
+        margin:  auto;
+    
+    }
+
+    .rows{
+        clear: both;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0;
+    }
+    
+    .left img{
+        float: none;
+    
+        margin: 0 0 20px 0;
+        
+    }
+    
+    .right img{
+        float: none;
+        padding: 0;
+        margin: 0  0 20px 0;
+
+        
+        
+    }
+
+    .left{
+        float: none;
+        
+    }
+    
+    .right{
+        float: none;   
+        
+    }
+    
+    #content a img{
+        width: 500px;
+
+        
+    }
+  
+}
